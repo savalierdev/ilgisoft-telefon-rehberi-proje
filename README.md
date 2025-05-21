@@ -8,8 +8,9 @@ Web Tabanlı Telefon Rehberi Projesi
 
 
 ## KULLANILAN TEKNOLOJİLER
-  * ASP.NET MVC (Web Programming Language)
-  * MySQL (Database)
-  * Tailwind.css (CSS Framework)
-  * jQuery (JS Framework)
-  * DataTables (JavaScript Table Framework)
+  * ASP.NET MVC (Model-View-Controller Yapısına Uygun Back-End Web Geliştirme Dili)
+  * MySQL (Veritabanı Sunucusu)
+  * Tailwind.css (Hazır CSS Classları Tanımlı CSS Frameworkü)
+  * jQuery (JavaScript Yazımını İyileştiren JavaScript Frameworkü)
+  * DataTables (Tablolama İşlemlerini Kolaylaştıran JavaScript Frameworkü)
+  * Internet Information Services veya Plesk Web Hosting Kontrol Paneli (Web Server)
