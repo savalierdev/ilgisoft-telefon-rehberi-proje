@@ -7,7 +7,7 @@ Web Tabanlı Telefon Rehberi Projesi
 
 
 
-- KULLANILAN TEKNOLOJİLER
+# - KULLANILAN TEKNOLOJİLER
   * ASP.NET MVC (Web Programming Language)
   * MySQL (Database)
   * Tailwind.css (CSS Framework)
