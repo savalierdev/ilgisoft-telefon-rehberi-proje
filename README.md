@@ -14,3 +14,12 @@ Web Tabanlı Telefon Rehberi Projesi
   * jQuery (JavaScript Yazımını İyileştiren JavaScript Frameworkü)
   * DataTables (Tablolama İşlemlerini Kolaylaştıran JavaScript Frameworkü)
   * Internet Information Services veya Plesk Web Hosting Kontrol Paneli (Sitemize Gelen HTTP İsteklerini Karşılayacak Web Sunucusu)
+
+## DATABASE STRUCTURE
+ * ID
+ * PHONE NUMBER
+ * NAME
+ * SURNAME
+ * COMPANY NAME
+ * NOTE
+ * CREATE DATE
