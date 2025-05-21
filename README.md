@@ -13,4 +13,4 @@ Web Tabanlı Telefon Rehberi Projesi
   * Tailwind.css (Hazır CSS Classları Tanımlı CSS Frameworkü)
   * jQuery (JavaScript Yazımını İyileştiren JavaScript Frameworkü)
   * DataTables (Tablolama İşlemlerini Kolaylaştıran JavaScript Frameworkü)
-  * Internet Information Services veya Plesk Web Hosting Kontrol Paneli (Web Server)
+  * Internet Information Services veya Plesk Web Hosting Kontrol Paneli (Sitemize Gelen HTTP İsteklerini Karşılayacak Web Sunucusu)
