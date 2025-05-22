@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\alper\\Desktop\\Projects\\ilgisoft-telefon-rehberi-proje\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0AE089FA-3B41-959B-E49C-7D8C8521E4B5}|TelefonRehberi.csproj|c:\\users\\alper\\desktop\\projects\\ilgisoft-telefon-rehberi-proje\\telefonrehberi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{0AE089FA-3B41-959B-E49C-7D8C8521E4B5}|TelefonRehberi.csproj|solutionrelative:telefonrehberi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TelefonRehberi",
+              "DocumentMoniker": "C:\\Users\\alper\\Desktop\\Projects\\ilgisoft-telefon-rehberi-proje\\TelefonRehberi.csproj",
+              "RelativeDocumentMoniker": "TelefonRehberi.csproj",
+              "ToolTip": "C:\\Users\\alper\\Desktop\\Projects\\ilgisoft-telefon-rehberi-proje\\TelefonRehberi.csproj",
+              "RelativeToolTip": "TelefonRehberi.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-22T10:58:40.469Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
