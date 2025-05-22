@@ -1,0 +1,81 @@
+is_global = true
+build_property.TargetFramework = net9.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TelefonRehberi
+build_property.RootNamespace = TelefonRehberi
+build_property.ProjectDir = C:\Users\alper\Desktop\Projects\ilgisoft-telefon-rehberi-proje\TelefonRehberi\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 9.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\alper\Desktop\Projects\ilgisoft-telefon-rehberi-proje\TelefonRehberi
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/alper/Desktop/Projects/ilgisoft-telefon-rehberi-proje/TelefonRehberi/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alper/Desktop/Projects/ilgisoft-telefon-rehberi-proje/TelefonRehberi/Views/Kisi/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2lzaVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alper/Desktop/Projects/ilgisoft-telefon-rehberi-proje/TelefonRehberi/Views/Kisi/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2lzaVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alper/Desktop/Projects/ilgisoft-telefon-rehberi-proje/TelefonRehberi/Views/Kisi/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2lzaVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alper/Desktop/Projects/ilgisoft-telefon-rehberi-proje/TelefonRehberi/Views/Kisi/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2lzaVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alper/Desktop/Projects/ilgisoft-telefon-rehberi-proje/TelefonRehberi/Views/Kisi/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2lzaVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alper/Desktop/Projects/ilgisoft-telefon-rehberi-proje/TelefonRehberi/Views/Kisi/_CreatePartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2lzaVxfQ3JlYXRlUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alper/Desktop/Projects/ilgisoft-telefon-rehberi-proje/TelefonRehberi/Views/Kisi/_DeletePartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2lzaVxfRGVsZXRlUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alper/Desktop/Projects/ilgisoft-telefon-rehberi-proje/TelefonRehberi/Views/Kisi/_DetailsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2lzaVxfRGV0YWlsc1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alper/Desktop/Projects/ilgisoft-telefon-rehberi-proje/TelefonRehberi/Views/Kisi/_EditPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2lzaVxfRWRpdFBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alper/Desktop/Projects/ilgisoft-telefon-rehberi-proje/TelefonRehberi/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alper/Desktop/Projects/ilgisoft-telefon-rehberi-proje/TelefonRehberi/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alper/Desktop/Projects/ilgisoft-telefon-rehberi-proje/TelefonRehberi/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alper/Desktop/Projects/ilgisoft-telefon-rehberi-proje/TelefonRehberi/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alper/Desktop/Projects/ilgisoft-telefon-rehberi-proje/TelefonRehberi/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-4w7823gja9

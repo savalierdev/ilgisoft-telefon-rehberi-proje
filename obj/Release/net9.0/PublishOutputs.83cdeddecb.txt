@@ -1,0 +1,12 @@
+C:\Users\alper\Desktop\Projects\ilgisoft-telefon-rehberi-proje\TelefonRehberi\publish\TelefonRehberi.exe
+C:\Users\alper\Desktop\Projects\ilgisoft-telefon-rehberi-proje\TelefonRehberi\publish\appsettings.Development.json
+C:\Users\alper\Desktop\Projects\ilgisoft-telefon-rehberi-proje\TelefonRehberi\publish\appsettings.json
+C:\Users\alper\Desktop\Projects\ilgisoft-telefon-rehberi-proje\TelefonRehberi\publish\TelefonRehberi.dll
+C:\Users\alper\Desktop\Projects\ilgisoft-telefon-rehberi-proje\TelefonRehberi\publish\TelefonRehberi.runtimeconfig.json
+C:\Users\alper\Desktop\Projects\ilgisoft-telefon-rehberi-proje\TelefonRehberi\publish\TelefonRehberi.pdb
+C:\Users\alper\Desktop\Projects\ilgisoft-telefon-rehberi-proje\TelefonRehberi\publish\Microsoft.EntityFrameworkCore.dll
+C:\Users\alper\Desktop\Projects\ilgisoft-telefon-rehberi-proje\TelefonRehberi\publish\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\alper\Desktop\Projects\ilgisoft-telefon-rehberi-proje\TelefonRehberi\publish\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\alper\Desktop\Projects\ilgisoft-telefon-rehberi-proje\TelefonRehberi\publish\MySqlConnector.dll
+C:\Users\alper\Desktop\Projects\ilgisoft-telefon-rehberi-proje\TelefonRehberi\publish\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\alper\Desktop\Projects\ilgisoft-telefon-rehberi-proje\TelefonRehberi\publish\TelefonRehberi.deps.json

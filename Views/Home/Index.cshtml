@@ -1,0 +1,121 @@
+﻿
+@model IEnumerable<TelefonRehberi.Models.Kisi>
+@{
+    ViewData["Title"] = "Telefon Rehberi";
+}
+
+<div class="container mt-5">
+    <h2>Telefon Rehberi</h2>
+
+    <div class="mb-4">
+        <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#ekleModal">Numara Ekle</button>
+        <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#silModal">Numara Sil</button>
+        <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#duzenleModal">Numara Düzenle</button>
+    </div>
+
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Ad</th>
+                <th>Soyad</th>
+                <th>Telefon</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null)
+            {
+                @foreach (var kisiler in Model)
+                {
+                    <tr>
+                        <td>@kisiler.Ad</td>
+                        <td>@kisiler.Soyad</td>
+                        <td>@kisiler.TelefonNumarasi</td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</div>
+
+<!-- Modal: Numara Ekle -->
+<div class="modal fade" id="ekleModal" tabindex="-1" aria-labelledby="ekleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <form asp-action="Create" asp-controller="Kisi" method="post" class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Numara Ekle</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    <label>Ad</label>
+                    <input name="Ad" class="form-control" required />
+                </div>
+                <div class="mb-3">
+                    <label>Soyad</label>
+                    <input name="Soyad" class="form-control" required />
+                </div>
+                <div class="mb-3">
+                    <label>Telefon</label>
+                    <input name="Telefon" class="form-control" required />
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-primary" type="submit">Ekle</button>
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Kapat</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Modal: Numara Sil -->
+<div class="modal fade" id="silModal" tabindex="-1" aria-labelledby="silModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <form asp-action="DeleteByPhone" asp-controller="Person" method="post" class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Numara Sil</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    <label>Telefon Numarası</label>
+                    <input name="Telefon" class="form-control" required />
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-danger" type="submit">Sil</button>
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Kapat</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Modal: Numara Düzenle -->
+<div class="modal fade" id="duzenleModal" tabindex="-1" aria-labelledby="duzenleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <form asp-action="EditByPhone" asp-controller="Person" method="post" class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Numara Düzenle</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    <label>Telefon (aranacak)</label>
+                    <input name="Telefon" class="form-control" required />
+                </div>
+                <div class="mb-3">
+                    <label>Yeni Ad</label>
+                    <input name="Ad" class="form-control" required />
+                </div>
+                <div class="mb-3">
+                    <label>Yeni Soyad</label>
+                    <input name="Soyad" class="form-control" required />
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-warning" type="submit">Güncelle</button>
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Kapat</button>
+            </div>
+        </form>
+    </div>
+</div>
+

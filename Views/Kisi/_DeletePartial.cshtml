@@ -1,0 +1,66 @@
+@model TelefonRehberi.Models.Kisi
+
+<div class="modal-header">
+    <h5 class="modal-title poppins-medium">Kişi Sil</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body poppins-regular">
+    <h3 class="poppins-medium">Bu kişiyi silmek istediğinizden emin misiniz?</h3>
+    <dl class="row">
+        <dt class="col-sm-4 poppins-regular">
+            @Html.DisplayNameFor(model => model.Ad)
+        </dt>
+        <dd class="col-sm-8 poppins-light">
+            @Html.DisplayFor(model => model.Ad)
+        </dd>
+        <dt class="col-sm-4 poppins-regular">
+            @Html.DisplayNameFor(model => model.Soyad)
+        </dt>
+        <dd class="col-sm-8 poppins-light">
+            @Html.DisplayFor(model => model.Soyad)
+        </dd>
+        <dt class="col-sm-4 poppins-regular">
+            Telefon Numarası
+        </dt>
+        <dd class="col-sm-8 poppins-light">
+            @Html.DisplayFor(model => model.TelefonNumarasi)
+        </dd>
+    </dl>    <form asp-action="Delete" id="deleteForm" class="poppins-regular">
+        @Html.AntiForgeryToken()
+        <input type="hidden" asp-for="KisiId" />
+    </form>
+</div>
+<div class="modal-footer">
+    <button type="button" class="btn btn-dark poppins-regular" data-bs-dismiss="modal">İptal</button>
+    <button type="button" class="btn btn-danger poppins-regular" id="confirmDeleteBtn">Sil</button>
+</div>
+
+<script>
+    $(document).ready(function() {
+        $('#confirmDeleteBtn').click(function() {
+            console.log("Delete button clicked");
+            
+            // Form verilerini aldık
+            var formData = $('#deleteForm').serialize();
+            console.log("Form data:", formData);
+            
+            $.ajax({
+                url: '@Url.Action("Delete", "Kisi")',
+                type: 'POST',
+                data: formData,
+                headers: {
+                    'X-Requested-With': 'XMLHttpRequest'
+                },
+                success: function(result) {
+                    console.log("Success:", result);
+                    $('#formModal').modal('hide');
+                    window.location.reload();
+                },
+                error: function(err) {
+                    console.log("Error:", err);
+                    alert('Hata oluştu. Lütfen tekrar deneyiniz.');
+                }
+            });
+        });
+    });
+</script>

@@ -1,0 +1,67 @@
+@model TelefonRehberi.Models.Kisi
+
+<div class="modal-header">
+    <h5 class="modal-title poppins-medium">Kişi Düzenle</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body">    <form asp-action="Edit" id="editForm" class="poppins-regular">
+        @Html.AntiForgeryToken()
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <input type="hidden" asp-for="KisiId" />
+        <div class="form-group mb-3">
+            <label asp-for="Ad" class="control-label poppins-regular"></label>
+            <input asp-for="Ad" class="form-control poppins-light" />
+            <span asp-validation-for="Ad" class="text-danger poppins-light"></span>
+        </div>
+        <div class="form-group mb-3">
+            <label asp-for="Soyad" class="control-label poppins-regular"></label>
+            <input asp-for="Soyad" class="form-control poppins-light" />
+            <span asp-validation-for="Soyad" class="text-danger poppins-light"></span>
+        </div>
+        <div class="form-group mb-3">
+            <label asp-for="TelefonNumarasi" class="control-label poppins-regular">Telefon Numarası</label>
+            <input asp-for="TelefonNumarasi" class="form-control poppins-light" placeholder="5xxxxxxxxx" />
+            <span asp-validation-for="TelefonNumarasi" class="text-danger poppins-light"></span>
+        </div>
+    </form>
+</div>
+<div class="modal-footer">
+    <button type="button" class="btn btn-dark poppins-regular" data-bs-dismiss="modal">İptal</button>
+    <button type="button" class="btn btn-dark poppins-regular" id="saveEditBtn">Kaydet</button>
+</div>
+
+<script>
+    $(document).ready(function() {
+        // Kaydet düğmesi ile form verilerini gönderme
+        $('#saveEditBtn').click(function() {
+            console.log("Save button clicked");
+            
+            // Form verilerini aldık
+            var formData = $('#editForm').serialize();
+            console.log("Form data:", formData);
+              // AJAX ile formu gönderdik
+            $.ajax({
+                url: '@Url.Action("Edit", "Kisi")',
+                type: 'POST',
+                data: formData,
+                headers: {
+                    'X-Requested-With': 'XMLHttpRequest'
+                },
+                success: function(result) {
+                    if (result.success) {
+                        console.log("Success:", result);
+                        $('#formModal').modal('hide');
+                        window.location.reload();
+                    } else {
+                        // Sunucudan dönen HTML'i modalın içeriğine yerleştir
+                        $('#modalContent').html(result);
+                    }
+                },
+                error: function(err) {
+                    console.log("Error:", err);
+                    alert('Hata oluştu. Lütfen tekrar deneyiniz.');
+                }
+            });
+        });
+    });
+</script>
